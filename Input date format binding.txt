@@ -1,9 +1,16 @@
 1. Binding date format in inputbox
 
 In html file
--> <input type="datetime-local" value="" id="validfromDate"
-                                [value]="date" class="form-control dateTime" placeholder="From date" autocomplete="off"
-                                (change)="onChangeNextVisitConfirmed($event)" />
+-> <input 
+      type="datetime-local" 
+      value="" 
+      id="validfromDate" 
+      [value]="date" 
+      class="form-control dateTime" 
+      placeholder="From date" 
+      autocomplete="off"
+      (change)="onChangeNextVisitConfirmed($event)" 
+   />
 
 In Ts File
 -> date: string;
