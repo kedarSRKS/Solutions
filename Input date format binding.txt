@@ -3,7 +3,7 @@
 In html file
 -> <input 
       type="datetime-local" 
-      value="" 
+      
       id="validfromDate" 
       [value]="date" 
       class="form-control dateTime" 
@@ -15,3 +15,5 @@ In html file
 In Ts File
 -> date: string;
 -> this.date = new Date(new Date().toString().split('GMT')[0] + ' UTC').toISOString().slice(0, 16);
+
+
