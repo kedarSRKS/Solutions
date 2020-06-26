@@ -16,6 +16,6 @@ In Ts File
 -> date: string;
 -> this.date = new Date(new Date().toString().split('GMT')[0] + ' UTC').toISOString().slice(0, 16);
 
---> Code can be used for angualar 
+--> Code can be used for angualar please check
 
 
